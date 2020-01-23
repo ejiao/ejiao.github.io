@@ -1,0 +1,8 @@
+.card_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 1200px;
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
