@@ -2,6 +2,7 @@
 	margin-top: 0;
 	background-color: #535353;
 	height: 100vh;
+	min-height: 800px;
 	color: white;
 }
 
