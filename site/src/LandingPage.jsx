@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './landing_page.css';
+import OneCircle from './OneCircle.jsx';
 
 class LandingPage extends Component {
 
@@ -8,13 +9,10 @@ class LandingPage extends Component {
 		return (
 			<div className="landing_page__text">
         <div className="landing_page__title">
-        	This is Eddie Jiao’s personal website.
+        	<p> Welcome to Eddie’s funky&nbsp;internet&nbsp;site. </p>
+        	<p> Eddie Jiao is a product&#8209;focused engineer.
+He graduated from <a href="https://www.brown.edu/">Brown</a> and is currently at <a href="https://slack.com/">Slack</a> in San&nbsp;Francisco, California.  </p>
         </div>
-        <div className="landing_page__subtitle">
-        	<p>
-        		Eddie Jiao is a developer/designer. Eddie graduated from Brown in 2019 and is currently at Slack in San Francisco.
-        	</p>
-				</div>
 			</div>
 		);
 	}
@@ -22,9 +20,10 @@ class LandingPage extends Component {
 	renderNav() {
 		return(
 			<div className="nav">
-				<a href='#'>WORK</a>
-				<a href='#'>BLOG</a>
-				<a href='#'>ABOUT</a>
+				<a href='#'>01.WORK</a>
+				<a href='#'>02.BLOG</a>
+				<a href='#'>03.ABOUT</a>
+				<a href='#'>04.LABYRINTH</a>
 			</div>
 		);
 	}
@@ -32,8 +31,11 @@ class LandingPage extends Component {
   render() {
     return (
       <div className="landing_page">
-      	{this.renderNav()}
-      	{this.renderText()}
+      	<div className="landing_page__content">
+      		{this.renderNav()}
+      		<OneCircle />
+        	{this.renderText()}
+      	</div>
 			</div>
     );
   }

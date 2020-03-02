@@ -1,0 +1,13 @@
+.one_circle {
+  height: 220px;
+  width: 220px;
+  margin: auto;
+  margin-top: 36vh;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  animation-duration: 3s;
+  animation-name: undulate;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

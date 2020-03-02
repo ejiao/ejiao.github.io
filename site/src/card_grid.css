@@ -1,9 +1,26 @@
+.card_grid_wrapper {
+	background: linear-gradient(to bottom, #535353, #2F2F2F 450px);
+	width: 100%;
+}
+
 .card_grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	max-width: 1200px;
+	max-width: 1250px;
 	margin: auto;
-	margin-top: 150px;
-	margin-bottom: 150px;
-	background: linear-gradient(to bottom, #535353, #2F2F2F 25%);
+	padding: 20px 30px 150px 30px;
+}
+
+@media only screen and (max-width: 1300px) {
+	.card_grid {
+		grid-template-columns: 1fr 1fr;
+		max-width: 1000px;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	.card_grid {
+		grid-template-columns: 1fr;
+		max-width: 600px;
+	}
 }

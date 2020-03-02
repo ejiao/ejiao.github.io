@@ -7,11 +7,13 @@ class CardGrid extends Component {
 
   render() {
     return (
-      <div className="card_grid">
-      	<Card />
-      	<Card />
-      	<Card />
-      	<Card />
+    	<div className="card_grid_wrapper">
+	      <div className="card_grid">
+	      	<Card />
+	      	<Card />
+	      	<Card />
+	      	<Card />
+				</div>
 			</div>
     );
   }

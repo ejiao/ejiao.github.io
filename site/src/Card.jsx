@@ -4,9 +4,24 @@ import './card.css';
 
 class Card extends Component {
 
+  constructor(props) {
+    super(props);
+
+    this.onHover = this.onHover.bind(this);
+  }
+
+  onHover() {
+
+  }
+
   render() {
     return (
       <div className="card">
+        <div
+          className="card__description"
+        >
+          A program that generates realistic 3D trees from fractals
+        </div>
         <div
           className="card__cover_photo"
           style={{backgroundImage: 'url("img/mountain.png")'}}
@@ -16,7 +31,7 @@ class Card extends Component {
           Fall 2018
         </div>
         <div className="card__title">
-          Digital Arboretum
+          3D Trees
         </div>
       </div>
     );
