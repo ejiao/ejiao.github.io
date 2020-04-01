@@ -9,9 +9,9 @@ class LandingPage extends Component {
 		return (
 			<div className="landing_page__text">
         <div className="landing_page__title">
-        	<p> Welcome to Eddie’s funky&nbsp;internet&nbsp;site. </p>
-        	<p> Eddie Jiao is a product&#8209;focused engineer.
-He graduated from <a href="https://www.brown.edu/">Brown</a> and is currently at <a href="https://slack.com/">Slack</a> in San&nbsp;Francisco, California.  </p>
+        	<p> Welcome to Eddie’s internet&nbsp;site. </p>
+        	<p> Eddie Jiao is a product&#8209;focused developer.
+He graduated from <a href="https://en.wikipedia.org/wiki/Brown?oldformat=true">Brown</a> and is currently at <a href="https://slack.com/">Slack</a> in San&nbsp;Francisco, California.  </p>
         </div>
 			</div>
 		);
