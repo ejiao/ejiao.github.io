@@ -9,9 +9,8 @@ class LandingPage extends Component {
 		return (
 			<div className="landing_page__text">
         <div className="landing_page__title">
-        	<p> Welcome to Eddie’s internet&nbsp;site. </p>
-        	<p> Eddie Jiao is a product&#8209;focused developer.
-He graduated from <a href="https://en.wikipedia.org/wiki/Brown?oldformat=true">Brown</a> and is currently at <a href="https://slack.com/">Slack</a> in San&nbsp;Francisco, California.  </p>
+        	<p> I’m Eddie Jiao and welcome to my fun slice of the internet. </p>
+        	<p> I live in San Francisco and build software for a living. I’m currently working at Slack. </p>
         </div>
 			</div>
 		);
@@ -20,10 +19,10 @@ He graduated from <a href="https://en.wikipedia.org/wiki/Brown?oldformat=true">B
 	renderNav() {
 		return(
 			<div className="nav">
-				<a href='#'>01.WORK</a>
-				<a href='#'>02.BLOG</a>
-				<a href='#'>03.ABOUT</a>
-				<a href='#'>04.LABYRINTH</a>
+				<a className="nav_01" href='#'>01.WORK</a>
+				<a className="nav_02" href='#'>02.BLOG</a>
+				<a className="nav_03" href='#'>03.ABOUT</a>
+				<a className="nav_04" href='#'>04.LABYRINTH</a>
 			</div>
 		);
 	}

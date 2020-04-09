@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import './card.css';
 
+
+
 class Card extends Component {
 
   constructor(props) {
@@ -15,23 +17,24 @@ class Card extends Component {
   }
 
   render() {
+    const backgroundImage = `url({this.props.backgroundImage})`;
     return (
       <div className="card">
         <div
           className="card__description"
         >
-          A program that generates realistic 3D trees from fractals
+          {this.props.description}
         </div>
         <div
           className="card__cover_photo"
-          style={{backgroundImage: 'url("img/mountain.png")'}}
+          style={{backgroundImage: backgroundImage}}
         >
         </div>
         <div className="card__subtitle">
-          Fall 2018
+          {this.props.subtitle}
         </div>
         <div className="card__title">
-          3D Trees
+          {this.props.title}
         </div>
       </div>
     );
