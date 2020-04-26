@@ -17,24 +17,29 @@ class Card extends Component {
   }
 
   render() {
-    const backgroundImage = `url({this.props.backgroundImage})`;
+    const backgroundImage = `url(${this.props.backgroundImage})`;
     return (
       <div className="card">
-        <div
-          className="card__description"
-        >
-          {this.props.description}
+        <div className="card__top">
+          <div className="card__description" >
+            <div className="card__description_text" >
+              {this.props.description}
+            </div>
+          </div>
+          <div
+            className="card__cover_photo"
+            style={{backgroundImage: backgroundImage}}
+          >
+          </div>
         </div>
-        <div
-          className="card__cover_photo"
-          style={{backgroundImage: backgroundImage}}
-        >
-        </div>
-        <div className="card__subtitle">
-          {this.props.subtitle}
-        </div>
-        <div className="card__title">
-          {this.props.title}
+        <div className="card__bottom">
+
+          <div className="card__subtitle">
+            {this.props.subtitle}
+          </div>
+          <div className="card__title">
+            {this.props.title}
+          </div>
         </div>
       </div>
     );

@@ -10,3 +10,9 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
+@media only screen and (max-width: 1080px) {
+  .one_circle {
+    display: none;
+  }
+}
