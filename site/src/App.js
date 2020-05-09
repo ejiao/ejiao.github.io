@@ -11,17 +11,16 @@ import {
 import './App.css';
 import LandingPage from './LandingPage.jsx';
 import CardGrid from './CardGrid.jsx';
-import NavBar from './NavBar.jsx';
+import About from './About.jsx';
 
 class App extends Component {
   render() {
     return (
     	<Router>
     		<div>
-    			<NavBar />
 				<Switch>
 	          		<Route path="/about">
-		            	<CardGrid />
+		            	<About />
 		          	</Route>
 		          	<Route path="/">
 					    <LandingPage />

@@ -23,7 +23,7 @@
 }
 
 .card__cover_photo {
-	background-color: purple;
+	background-color: #222;
 	background-size: cover;
 	height: 100%;
 	border-radius: 10px 10px 0 0;
@@ -64,6 +64,58 @@
 	font-weight: 300;
 }
 
+.card__modal_container {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+  	top: 0;
+  	left: 0;
+  	z-index: 100;
+  	background-color: rgba(0,0,0, 0.5);
+}
+
+.show {
+	display: block;
+}
+
+.card__modal {
+	border-radius: 10px;
+	max-width: 800px;
+	font-family: 'Roboto Mono', san-serif;
+	line-height: 1.6;
+	font-size: 15px;
+	max-height: 90vh;
+	z-index: 101;
+	overflow: auto;
+	background-color: #3f3f3f;
+	margin: 20px auto;
+	padding: 40px;
+}
+
+.card__modal img,
+.card__modal iframe {
+	width: 100%;
+	display: block;
+	margin: auto;
+	padding: 20px 0;
+	max-width: 600px;
+}
+
+.card__modal p {
+	display: block;
+	margin: auto;
+	max-width: 700px;
+	padding: 10px 0;
+}
+
+.card__modal_title {
+	margin: auto;
+	text-align: center;
+	font-family: 'Old Standard TT', serif;
+	font-size: 35px;
+}
+
 @media only screen and (max-width: 550px) {
 	.card__description_text {
 		font-size: 25px;
@@ -72,5 +124,10 @@
 
 	.card {
 		min-height: 200px;
+	}
+
+	.card__modal {
+		padding: 20px;
+		margin: 20px;
 	}
 }

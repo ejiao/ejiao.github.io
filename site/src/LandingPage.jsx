@@ -9,8 +9,9 @@ class LandingPage extends Component {
 		return (
 			<div className="landing_page__text">
 				<div className="landing_page__title">
-		        	<p> Hello, I'm Eddie Jiao. Welcome to my fun slice of the internet. </p>
-		        	<p> I live in San Francisco and build software for a living. I’m currently working at Slack. Previously, I've been at Donut and Brown University.</p>
+		        	<p> Hey there, I'm Eddie Jiao. Welcome to my fun slice of the internet. </p>
+		        	<p> I live in San Francisco and build software for a living. I’m currently working on Slack, and was previously at Donut and Brown University.</p>
+		        	<p> Engineering + Design + 3D Graphics </p>
 		        </div>
 			</div>
 		);

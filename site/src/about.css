@@ -1,12 +1,13 @@
-.landing_page {
+.about_page {
 	-webkit-font-smoothing: antialiased;
 	margin-top: 0;
 	background-color: #3f3f3f;
-	min-height: 90vh;
+	min-height: 80vh;
 	color: white;
+
 }
 
-.landing_page__content {
+.about_page__content {
 	padding: 80px 30px 50px 30px;
 	max-width: 1200px;
 	margin: auto;
@@ -14,8 +15,12 @@
 	grid-template-columns: 1fr 2fr;
 }
 
-.landing_page__title p {
-	margin-top: 0;
+.about_text {
+
+}
+
+.about_title {
+
 }
 
 .landing_page__title {
@@ -37,7 +42,7 @@
 }
 
 @media only screen and (max-width: 1080px) {
-	.landing_page__content {
+	.about_page {
 		display: flex;
 		flex-direction: column;
 	}
