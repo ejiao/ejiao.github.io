@@ -5,6 +5,7 @@ import STEAMModal from './modals/STEAMModal';
 import HackAtBrownModal from './modals/HackAtBrownModal';
 import ThreeDTreesModal from './modals/ThreeDTreesModal';
 import MissingCatModal from './modals/MissingCatModal';
+import SainteChapelleModal from './modals/SainteChapelleModal';
 
 import './card_grid.css';
 
@@ -43,6 +44,7 @@ class CardGrid extends Component {
 			      		subtitle="Fall 2018"
 			      		description="A 3D modeled reconstruction of the Sainte Chapelle Cathedral in Paris."
 			      		backgroundImage="sainte-chapelle.gif"
+			      		modalContent={<SainteChapelleModal />}
 			      	/>
 			      	<Card
 			      		title="Missing Cat"

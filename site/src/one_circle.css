@@ -9,6 +9,7 @@
   animation-name: undulate;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1080px) {

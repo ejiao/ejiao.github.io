@@ -5,12 +5,15 @@ const HackAtBrownModal = props => (
 		<p className="card__modal_title"> Hack@Brown 2019: Recess </p>
 		<img src="HackAtBrown/cover.png" alt="the words Hack@Brown: Recess over a playground on a yellow background"/>
 
-		<p> Hack@Brown aims to be an inclusive and education-focused environment where 500 students + mentors can come together for a weekend to build something new.  </p>
-		<p> As co-directors, <a>Miranda Christ</a> and I wanted to create a fun space where students and mentors feel comfortable learning, playing, and experimenting with a piece of technology they might not have touched before. </p>
+		<p> Hack@Brown is a new type of hackathon: one focused on learning and inclusion, rather than prizes and competition.</p>
+		<p> As co-directors, <a href="https://www.linkedin.com/in/mjchrist/">Miranda Christ</a> and I wanted to create a fun space where students and mentors felt comfortable learning, playing, and experimenting together with a piece of technology they might not have touched before. </p>
 
+
+		<p> Check out the recap video below, made by our brilliant Publicity lead <a href="https://www.anessapetteruti.com/">Anessa Petteruti</a></p>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/mOw8sz48-T8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-	</div>
+		<p> Curious about the design of Hack@Brown? Check out the <a href="https://medium.com/hack-at-brown/designing-hack-brown-2019-e07f20a0e42d">design blog post</a> written by our talented design leads <a href="">G Cha</a> and <a href="https://marksejourne.com/">Mark Sejourne</a>.</p>
+ 	</div>
 );
 
 export default HackAtBrownModal;

@@ -1,6 +1,7 @@
 .circle_illustration {
 	padding: 80px 70px 80px 70px;
 	display: grid;
+	cursor: pointer;
 }
 
 .circle_row {
@@ -21,10 +22,6 @@
   animation-name: undulate;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-}
-
-.dot:hover {
-	cursor: pointer;
 }
 
 @keyframes undulate {
