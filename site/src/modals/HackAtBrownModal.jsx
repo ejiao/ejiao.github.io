@@ -10,7 +10,7 @@ const HackAtBrownModal = props => (
 
 
 		<p> Check out the recap video below, made by our brilliant Publicity lead <a href="https://www.anessapetteruti.com/">Anessa Petteruti</a></p>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/mOw8sz48-T8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/mOw8sz48-T8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 		<p> Curious about the design of Hack@Brown? Check out the <a href="https://medium.com/hack-at-brown/designing-hack-brown-2019-e07f20a0e42d">design blog post</a> written by our talented design leads <a href="">G Cha</a> and <a href="https://marksejourne.com/">Mark Sejourne</a>.</p>
  	</div>

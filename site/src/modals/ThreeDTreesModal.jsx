@@ -3,7 +3,7 @@ import React from "react";
 const ThreeDTreesModal = props => (
 	<div>
 		<p className="card__modal_title"> Generated 3D Trees </p>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/jDcx-KobpdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/jDcx-KobpdU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 		<p>Made in collaboration with <a href="https://bguesman.github.io/">Brad Guesman</a> and <a href="http://www.leonardoko.com/">Leo Ko</a>. </p>
 

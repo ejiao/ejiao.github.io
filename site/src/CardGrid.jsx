@@ -6,6 +6,9 @@ import HackAtBrownModal from './modals/HackAtBrownModal';
 import ThreeDTreesModal from './modals/ThreeDTreesModal';
 import MissingCatModal from './modals/MissingCatModal';
 import SainteChapelleModal from './modals/SainteChapelleModal';
+import AFrameModal from './modals/AFrameModal';
+import LanternVillageModal from './modals/LanternVillageModal';
+import SketchBlogModal from './modals/SketchBlogModal';
 
 import './card_grid.css';
 
@@ -15,7 +18,7 @@ class CardGrid extends Component {
 	    return (
 	    	<div className="card_grid_wrapper">
 	    		<div className="card_grid__title">
-	    			Some Stuff I've Worked On:
+	    			Some Stuff I Had Fun Making:
 	    		</div>
 			    <div className="card_grid">
 		     		<Card
@@ -54,22 +57,25 @@ class CardGrid extends Component {
 			      		modalContent={<MissingCatModal />}
 			      	/>
 			      	<Card
-			      		title="AFrame experiments"
+			      		title="Web VR experiments"
 			      		subtitle="Fall 2017"
 			      		description="Quick VR experiments written in javascript and run in a browser."
 			      		backgroundImage="aframe.gif"
+			      		modalContent={<AFrameModal />}
 			      	/>
 			      	<Card
 			      		title="Lantern Village"
 			      		subtitle="Spring 2017"
 			      		description="Interactive art installation with lights and sound."
 			      		backgroundImage="lantern_village.gif"
+			      		modalContent={<LanternVillageModal />}
 			      	/>
 			      	<Card
 			      		title="Eddie's Sketch Blog"
 			      		subtitle="2016"
 			      		description="A blog of my sketches through the years."
 			      		backgroundImage="sketchbook.jpg"
+			      		modalContent={<SketchBlogModal />}
 			      	/>
 				</div>
 			</div>
