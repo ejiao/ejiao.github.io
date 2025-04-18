@@ -1,4 +1,3 @@
-
 .nav {
 	margin: auto;
 	grid-column: 1 / 3;
@@ -9,7 +8,9 @@
 }
 
 .nav a {
-	font-family: 'Roboto Mono', sans-serif;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	letter-spacing: -0.02em;
 	color: #B8B8B8;
 	text-decoration: none;
 	font-size: 15px;
@@ -98,7 +99,7 @@ a:active {
 	}
 
 	.landing_page__title {
-		font-family: 'Old Standard TT', serif;
+		font-family: 'GT Sectra Book', serif;
 		font-size: 25px;
 		line-height: 40px;
 		padding: 0;

@@ -5,7 +5,9 @@
 
 .card_grid__title {
 	text-align: center;
-	font-family: 'Roboto Mono', sans-serif;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	letter-spacing: -0.02em;
 	color: #B8B8B8;
 	font-size: 15px;
 	padding: 20px;

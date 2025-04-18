@@ -4,8 +4,10 @@
 	background-color: #222;
 	border-radius: 10px;
 	grid-template-rows: 3fr 1fr;
-	font-family: 'Roboto Mono', san-serif;
+	font-family: 'Inter', sans-serif;
 	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: -0.02em;
 	color: #ddd;
 	min-height: 380px;
 	margin-bottom: 50px;
@@ -45,7 +47,7 @@
 
 .card__description_text {
 	color: white;
-	font-family: 'Old Standard TT', serif;
+	font-family: 'GT Sectra Book', serif;
 	font-size: 35px;
 	padding: 30px 25px 25px 25px;
   	text-align: left;
@@ -72,7 +74,9 @@
 .card__modal {
 	border-radius: 10px;
 	max-width: 800px;
-	font-family: 'Roboto Mono', san-serif;
+	font-family: 'Inter', sans-serif;
+	font-weight: 500;
+	letter-spacing: -0.02em;
 	line-height: 1.6;
 	font-size: 15px;
 	max-height: 90vh;
@@ -106,7 +110,7 @@
 .card__modal_title {
 	margin: auto;
 	text-align: center;
-	font-family: 'Old Standard TT', serif;
+	font-family: 'GT Sectra Book', serif;
 	font-size: 35px;
 }
 

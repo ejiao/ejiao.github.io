@@ -21,6 +21,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "echo 'http://eddiejiao.com' > ./build/CNAME && gh-pages -d build"
   }
 }

@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT|Lato:300,700|Roboto+Mono&display=swap');
+@font-face {
+  font-family: 'GT Sectra Book';
+  src: url('/fonts/GT-Sectra-Book.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lato:wght@300;700&display=swap');
 
 body {
   -webkit-font-smoothing: antialiased;
