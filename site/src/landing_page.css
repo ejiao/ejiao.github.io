@@ -59,4 +59,10 @@
 		padding: 0;
 		padding-top: 50px;
 	}
+
+	.landing_page__subtitle {
+		font-family: 'Inter', sans-serif;
+		padding: 0px;
+	}
+	
 }
