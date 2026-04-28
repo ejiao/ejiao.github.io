@@ -9,12 +9,17 @@
 :root {
   --page: #fbfaf8;
   --ink: #0b0a09;
-  --measure: 22rem;
-  --title-measure: 42rem;
+  --measure: 24rem;
+  --title-measure: 60rem;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.landing_page ::selection {
+  background: #0b0a09;
+  color: #fbfaf8;
 }
 
 .landing_page {
