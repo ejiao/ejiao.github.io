@@ -10,7 +10,7 @@
   --page: #fbfaf8;
   --ink: #0b0a09;
   --measure: 22rem;
-  --title-measure: 36rem;
+  --title-measure: 42rem;
 }
 
 * {
@@ -36,8 +36,8 @@
 
 .landing_page__title {
   max-width: var(--title-measure);
-  margin: 0 0 2.85rem;
-  font-size: clamp(1.72rem, 2.2vw, 2.18rem);
+  margin: 0 0 2.35rem;
+  font-size: 30pt;
   line-height: 1;
   font-weight: 400;
   text-align: center;
@@ -51,7 +51,7 @@
   max-width: var(--measure);
   margin: 0;
   margin-inline: auto;
-  font-size: clamp(1.15rem, 1.55vw, 1.42rem);
+  font-size: clamp(1.15rem, 1.55vw, 1.32rem);
   line-height: 1.4;
 }
 
@@ -83,7 +83,6 @@
 @media (max-width: 520px) {
   :root {
     --measure: 20.5rem;
-    --title-measure: 22.5rem;
   }
 
   .landing_page {
@@ -93,7 +92,6 @@
 
   .landing_page__title {
     margin-bottom: 2.35rem;
-    font-size: 1.5rem;
   }
 
   .landing_page__intro,
