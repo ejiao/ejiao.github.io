@@ -9,7 +9,7 @@
 :root {
   --page: #fbfaf8;
   --ink: #0b0a09;
-  --measure: 23.5rem;
+  --measure: 22rem;
   --title-measure: 36rem;
 }
 
@@ -42,6 +42,7 @@
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+  text-wrap: pretty;
   letter-spacing: 0;
 }
 
@@ -51,12 +52,13 @@
   margin: 0;
   margin-inline: auto;
   font-size: clamp(1.15rem, 1.55vw, 1.42rem);
-  line-height: 1.34;
+  line-height: 1.4;
 }
 
 .landing_page__intro {
   text-align: center;
   text-align-last: center;
+  text-wrap: pretty;
 }
 
 .landing_page__body {
@@ -65,7 +67,11 @@
   hyphens: auto;
   -webkit-hyphens: auto;
   overflow-wrap: normal;
-  word-spacing: 0.055em;
+}
+
+.landing_page a {
+  color: inherit;
+  text-decoration: none;
 }
 
 @supports (hanging-punctuation: first) {
