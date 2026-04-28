@@ -21,6 +21,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "echo 'http://eddiejiao.com' > ./build/CNAME && gh-pages -d build"
+    "deploy": "echo 'eddiejiao.com' > ./build/CNAME && gh-pages -b gh-pages -d build"
   }
 }

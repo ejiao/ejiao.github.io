@@ -1,16 +1,5 @@
-@font-face {
-  font-family: 'GT Sectra Book';
-  src: url('/fonts/GT-Sectra-Book.otf') format('opentype'),
-       url('/fonts/GT-Sectra-Book.woff2') format('woff2'),
-       url('/fonts/GT-Sectra-Book.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lato:wght@300;700&display=swap');
-
 body {
   -webkit-font-smoothing: antialiased;
-  background-color: #3f3f3f;
-  color: white;
+  background-color: #fbfaf8;
+  color: #0b0a09;
 }

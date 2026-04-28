@@ -1,32 +1,29 @@
 import React, { Component } from 'react';
 
 import './landing_page.css';
-import OneCircle from './OneCircle.jsx';
 
 class LandingPage extends Component {
-
-	renderText() {
-		return (
-			<div className="landing_page__text">
-				<div className="landing_page__title">
-		        	<p> Hey there, I'm Eddie Jiao. Welcome to my fun slice of the internet. </p>
-		        	<p> I live in San Francisco and founded <a href="https://commonknowled.ge/">Common Knowledge</a>, building experimental interfaces for the next generation of documents and computers. </p>
-		        </div>
-				<div className="landing_page__subtitle">
-					<p>Previously at <a href="https://hu.ma.ne/">Humane</a>, <a href="https://slack.com/">Slack</a>, <a href="https://www.donut.com/">Donut</a> and <a href="https://www.brown.edu/">Brown University</a>.</p>
-				</div>
-			</div>
-		);
-	}
-
   render() {
     return (
-      	<div className="landing_page">
-	      	<div className="landing_page__content">
-	      		<OneCircle />
-	        	{this.renderText()}
-	      	</div>
-		</div>
+      <main className="landing_page">
+        <article className="landing_page__content" aria-labelledby="page-title">
+          <h1 id="page-title" className="landing_page__title">
+            Towards a More Friendly Future
+          </h1>
+          <p className="landing_page__intro">I&#8217;m Eddie.</p>
+          <p className="landing_page__body">
+            I make new ways for people to use computers. About a year ago, I
+            founded Common Knowledge, a research lab building new types of
+            computing surfaces. Before that, I was a founder fellow at South
+            Park Commons. Before that, I was a software engineer at Humane,
+            where we tried to build an AI-native computer. At Humane, I built,
+            prototyped, and shipped a few highly novel interfaces. Before
+            Humane I was a software engineer at Slack, where I worked on the
+            desktop and iOS clients. I studied Computer Science at Brown
+            University and grew up in the Hudson Valley of New York.
+          </p>
+        </article>
+      </main>
     );
   }
 }
