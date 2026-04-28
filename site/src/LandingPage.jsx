@@ -8,16 +8,19 @@ class LandingPage extends Component {
       <main className="landing_page">
         <article className="landing_page__content" aria-labelledby="page-title">
           <h1 id="page-title" className="landing_page__title">
-            Towards a More Friendly Future
+            Building New Ways to Use Computers
           </h1>
           <p className="landing_page__intro">
             I&#8217;m <a href="https://x.com/eddiejiao_obj">Eddie</a>.
           </p>
           <p className="landing_page__body">
-            I make new ways for people to use computers. About a year ago, I
-            founded <a href="https://www.commonknowled.ge/">Common Knowledge</a>,
-            a research lab building new types of computing surfaces. Before
-            that, I was a founder fellow at{' '}
+            Recently I&#8217;ve been working on{' '}
+            <a href="https://flipbook.page">Flipbook</a>, an early
+            diffusion-based generative graphical user interface. About a year
+            ago, I founded{' '}
+            <a href="https://www.commonknowled.ge/">Common Knowledge</a>, a
+            research lab building new types of computing surfaces. Before that,
+            I was a founder fellow at{' '}
             <a href="https://www.southparkcommons.com/">South Park Commons</a>.
             Before that, I was a software engineer at Humane, where we tried to
             build an AI-native computer. At Humane, I built, prototyped, and
