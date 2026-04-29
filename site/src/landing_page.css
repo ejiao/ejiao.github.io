@@ -87,16 +87,21 @@
 
 @media (max-width: 520px) {
   :root {
-    --measure: 20.5rem;
+    --measure: 24rem;
   }
 
   .landing_page {
     align-items: start;
-    padding-top: 7.5rem;
+    padding: 7.5rem 0.5rem 4rem;
   }
 
   .landing_page__title {
     margin-bottom: 2.35rem;
+  }
+
+  .landing_page__intro,
+  .landing_page__body {
+    font-size: min(1.18rem, calc((100vw - 1rem) / 20.338983));
   }
 
 }
