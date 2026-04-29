@@ -92,7 +92,7 @@
 
   .landing_page {
     align-items: start;
-    padding: 7.5rem 0.5rem 4rem;
+    padding: 7.5rem 1.125rem 4rem;
   }
 
   .landing_page__title {
@@ -101,7 +101,7 @@
 
   .landing_page__intro,
   .landing_page__body {
-    font-size: min(1.18rem, calc((100vw - 1rem) / 20.338983));
+    font-size: min(1.18rem, calc((100vw - 2.25rem) / 20.338983));
   }
 
 }
