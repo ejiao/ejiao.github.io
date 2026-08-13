@@ -7,7 +7,7 @@
 }
 
 :root {
-  --page: #fbfaf8;
+  --page: #ffffff;
   --ink: #0b0a09;
   --measure: 24rem;
   --title-measure: 60rem;
@@ -19,7 +19,7 @@
 
 .landing_page ::selection {
   background: #0b0a09;
-  color: #fbfaf8;
+  color: #ffffff;
 }
 
 .landing_page {
